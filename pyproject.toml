@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kitenga_backend
+version = "0.1.0"
+description = "Modular AI agent backend with personality"
+authors = ["Adrian <adrian@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.1"
+uvicorn = { extras = ["standard"], version = "^0.29.0" }
+sqlalchemy = "^2.0.30"
+pgvector = "^0.2.1"
+httpx = "^0.27.0"
+pydantic = "^2.5.3"
+# ✅ VALID:
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

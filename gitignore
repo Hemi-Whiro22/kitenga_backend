@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+
+# VS Code / Codex / WSL artifacts
+.vscode/
+.devcontainer/
+*.code-workspace
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Supabase CLI cache
+.supabase/

@@ -1,0 +1,16 @@
+{
+  "project": "kitenga",
+  "table_mappings": {
+    "memory": "memory_loops",
+    "agents": "kaitiaki_registry"
+  },
+  "defaults": {
+    "region": "local",
+    "schema": "public"
+  },
+  "api": {
+    "base": "http://localhost:5432",
+    "auth": true,
+    "realtime": false
+  }
+}
